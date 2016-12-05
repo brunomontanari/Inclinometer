@@ -1,0 +1,881 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [inclinometer\inclinometer.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image inclinometer\inclinometer.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060183: Last Updated: Mon Dec 05 13:59:23 2016
+<BR><P>
+<H3>Maximum Stack Usage =        296 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+main &rArr; GetAngle &rArr; acos &rArr; __kernel_poly &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[1]">NMI_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1]">NMI_Handler</a><BR>
+ <LI><a href="#[2]">HardFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[2]">HardFault_Handler</a><BR>
+ <LI><a href="#[3]">SVC_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[3]">SVC_Handler</a><BR>
+ <LI><a href="#[4]">PendSV_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[4]">PendSV_Handler</a><BR>
+ <LI><a href="#[10]">ADC1_IRQHandler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[10]">ADC1_IRQHandler</a><BR>
+ <LI><a href="#[36]">Error_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[36]">Error_Handler</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[10]">ADC1_IRQHandler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[d]">DMA1_Channel1_IRQHandler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[e]">DMA1_Channel2_3_IRQHandler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[f]">DMA1_Channel4_5_IRQHandler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[a]">EXTI0_1_IRQHandler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[b]">EXTI2_3_IRQHandler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[c]">EXTI4_15_IRQHandler</a> from stm32f0xx_it.o(i.EXTI4_15_IRQHandler) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[8]">FLASH_IRQHandler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[2]">HardFault_Handler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[18]">I2C1_IRQHandler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[19]">I2C2_IRQHandler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[1]">NMI_Handler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[4]">PendSV_Handler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[9]">RCC_IRQHandler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[7]">RTC_IRQHandler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[0]">Reset_Handler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[1a]">SPI1_IRQHandler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[1b]">SPI2_IRQHandler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[3]">SVC_Handler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[5]">SysTick_Handler</a> from stm32f0xx_it.o(i.SysTick_Handler) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[1f]">SystemInit</a> from system_stm32f0xx.o(i.SystemInit) referenced from startup_stm32f030x8.o(.text)
+ <LI><a href="#[14]">TIM14_IRQHandler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[15]">TIM15_IRQHandler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[16]">TIM16_IRQHandler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[17]">TIM17_IRQHandler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[11]">TIM1_BRK_UP_TRG_COM_IRQHandler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[12]">TIM1_CC_IRQHandler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[13]">TIM3_IRQHandler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[1c]">USART1_IRQHandler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[1d]">USART2_IRQHandler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[6]">WWDG_IRQHandler</a> from startup_stm32f030x8.o(.text) referenced from startup_stm32f030x8.o(RESET)
+ <LI><a href="#[20]">__main</a> from entry.o(.ARM.Collect$$$$00000000) referenced from startup_stm32f030x8.o(.text)
+ <LI><a href="#[1e]">main</a> from main.o(i.main) referenced from entry9a.o(.ARM.Collect$$$$0000000B)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[20]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry.o(.ARM.Collect$$$$00000000))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(.text)
+</UL>
+<P><STRONG><a name="[6e]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
+
+<P><STRONG><a name="[21]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[22]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[34]"></a>__main_after_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Called By]<UL><LI><a href="#[22]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[6f]"></a>_main_clock</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7b.o(.ARM.Collect$$$$00000008))
+
+<P><STRONG><a name="[70]"></a>_main_cpp_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry8b.o(.ARM.Collect$$$$0000000A))
+
+<P><STRONG><a name="[71]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry9a.o(.ARM.Collect$$$$0000000B))
+
+<P><STRONG><a name="[72]"></a>__rt_final_cpp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry10a.o(.ARM.Collect$$$$0000000D))
+
+<P><STRONG><a name="[73]"></a>__rt_final_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry11a.o(.ARM.Collect$$$$0000000F))
+
+<P><STRONG><a name="[0]"></a>Reset_Handler</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[1]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[2]"></a>HardFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[3]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[4]"></a>PendSV_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[10]"></a>ADC1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[10]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC1_IRQHandler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[10]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC1_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[d]"></a>DMA1_Channel1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[e]"></a>DMA1_Channel2_3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[f]"></a>DMA1_Channel4_5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[a]"></a>EXTI0_1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[b]"></a>EXTI2_3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[8]"></a>FLASH_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[18]"></a>I2C1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[19]"></a>I2C2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[9]"></a>RCC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[7]"></a>RTC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[1a]"></a>SPI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[1b]"></a>SPI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[14]"></a>TIM14_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[15]"></a>TIM15_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[16]"></a>TIM16_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[17]"></a>TIM17_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[11]"></a>TIM1_BRK_UP_TRG_COM_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[12]"></a>TIM1_CC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[13]"></a>TIM3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[1c]"></a>USART1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[1d]"></a>USART2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[6]"></a>WWDG_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f030x8.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[74]"></a>__aeabi_uidiv</STRONG> (Thumb, 0 bytes, Stack size 12 bytes, uidiv.o(.text), UNUSED)
+
+<P><STRONG><a name="[44]"></a>__aeabi_uidivmod</STRONG> (Thumb, 44 bytes, Stack size 12 bytes, uidiv.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = __aeabi_uidivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetSysClockFreq
+<LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
+</UL>
+
+<P><STRONG><a name="[31]"></a>__aeabi_llsr</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, llushr.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __aeabi_llsr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+<LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dsqrt
+</UL>
+
+<P><STRONG><a name="[75]"></a>_ll_ushift_r</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, llushr.o(.text), UNUSED)
+
+<P><STRONG><a name="[3a]"></a>__aeabi_fmul</STRONG> (Thumb, 122 bytes, Stack size 16 bytes, fmul.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = __aeabi_fmul
+</UL>
+<BR>[Called By]<UL><LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetAngle
+</UL>
+
+<P><STRONG><a name="[23]"></a>__aeabi_fdiv</STRONG> (Thumb, 124 bytes, Stack size 16 bytes, fdiv.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = __aeabi_fdiv
+</UL>
+<BR>[Calls]<UL><LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_float_round
+</UL>
+<BR>[Called By]<UL><LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetAngle
+</UL>
+
+<P><STRONG><a name="[25]"></a>__aeabi_dadd</STRONG> (Thumb, 328 bytes, Stack size 48 bytes, dadd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = __aeabi_dadd &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[29]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
+<LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+<LI><a href="#[27]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_lasr
+<LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dsub
+<LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_drsub
+<LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;acos
+<LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetAngle
+<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_poly
+</UL>
+
+<P><STRONG><a name="[2a]"></a>__aeabi_dsub</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, dadd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = __aeabi_dsub &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;acos
+</UL>
+
+<P><STRONG><a name="[2b]"></a>__aeabi_drsub</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, dadd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = __aeabi_drsub &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;acos
+</UL>
+
+<P><STRONG><a name="[2c]"></a>__aeabi_dmul</STRONG> (Thumb, 202 bytes, Stack size 72 bytes, dmul.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;acos
+<LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetAngle
+<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_poly
+</UL>
+
+<P><STRONG><a name="[2d]"></a>__aeabi_i2d</STRONG> (Thumb, 34 bytes, Stack size 16 bytes, dflti.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = __aeabi_i2d &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+</UL>
+<BR>[Called By]<UL><LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetAngle
+</UL>
+
+<P><STRONG><a name="[2e]"></a>__aeabi_ui2d</STRONG> (Thumb, 24 bytes, Stack size 16 bytes, dfltui.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = __aeabi_ui2d &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+</UL>
+<BR>[Called By]<UL><LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetAngle
+</UL>
+
+<P><STRONG><a name="[3b]"></a>__aeabi_f2d</STRONG> (Thumb, 40 bytes, Stack size 0 bytes, f2d.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetAngle
+</UL>
+
+<P><STRONG><a name="[2f]"></a>__aeabi_d2f</STRONG> (Thumb, 56 bytes, Stack size 8 bytes, d2f.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __aeabi_d2f
+</UL>
+<BR>[Calls]<UL><LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_float_round
+</UL>
+<BR>[Called By]<UL><LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetAngle
+</UL>
+
+<P><STRONG><a name="[26]"></a>__aeabi_llsl</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, llshl.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __aeabi_llsl
+</UL>
+<BR>[Called By]<UL><LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+<LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+</UL>
+
+<P><STRONG><a name="[76]"></a>_ll_shift_l</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, llshl.o(.text), UNUSED)
+
+<P><STRONG><a name="[27]"></a>__aeabi_lasr</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, llsshr.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __aeabi_lasr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+</UL>
+
+<P><STRONG><a name="[77]"></a>_ll_sshift_r</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, llsshr.o(.text), UNUSED)
+
+<P><STRONG><a name="[78]"></a>__I$use$fp</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, iusefp.o(.text), UNUSED)
+
+<P><STRONG><a name="[24]"></a>_float_round</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, fepilogue.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[23]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_fdiv
+<LI><a href="#[2f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2f
+</UL>
+
+<P><STRONG><a name="[79]"></a>_float_epilogue</STRONG> (Thumb, 114 bytes, Stack size 12 bytes, fepilogue.o(.text), UNUSED)
+
+<P><STRONG><a name="[29]"></a>_double_round</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, depilogue.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = _double_round
+</UL>
+<BR>[Called By]<UL><LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+<LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dsqrt
+<LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
+<LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+</UL>
+
+<P><STRONG><a name="[28]"></a>_double_epilogue</STRONG> (Thumb, 164 bytes, Stack size 48 bytes, depilogue.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[29]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
+<LI><a href="#[31]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
+<LI><a href="#[30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_clz
+<LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2d
+<LI><a href="#[2d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2d
+<LI><a href="#[2c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
+<LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+</UL>
+
+<P><STRONG><a name="[32]"></a>__aeabi_ddiv</STRONG> (Thumb, 234 bytes, Stack size 40 bytes, ddiv.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = __aeabi_ddiv &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[29]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;acos
+<LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_invalid
+</UL>
+
+<P><STRONG><a name="[6b]"></a>__ARM_scalbn</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, dscalb.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = __ARM_scalbn
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;acos
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_infnan
+</UL>
+
+<P><STRONG><a name="[7a]"></a>scalbn</STRONG> (Thumb, 0 bytes, Stack size 16 bytes, dscalb.o(.text), UNUSED)
+
+<P><STRONG><a name="[33]"></a>_dsqrt</STRONG> (Thumb, 162 bytes, Stack size 32 bytes, dsqrt.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = _dsqrt &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[29]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
+<LI><a href="#[31]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sqrt
+</UL>
+
+<P><STRONG><a name="[22]"></a>__scatterload</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, init.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main_after_scatterload
+</UL>
+<BR>[Called By]<UL><LI><a href="#[21]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_scatterload
+</UL>
+
+<P><STRONG><a name="[7b]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
+
+<P><STRONG><a name="[c]"></a>EXTI4_15_IRQHandler</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, stm32f0xx_it.o(i.EXTI4_15_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = EXTI4_15_IRQHandler &rArr; HAL_GPIO_EXTI_IRQHandler &rArr; HAL_GPIO_EXTI_Callback &rArr; LIS3DH_INT2_ISR &rArr; LIS3DH_GetAccAxesRaw &rArr; LIS3DH_ReadReg &rArr; SPI_Mems_Read_Reg &rArr; MEMS_SendByte &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFifoStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_EXTI_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[36]"></a>Error_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, main.o(i.Error_Handler))
+<BR><BR>[Calls]<UL><LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Error_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Error_Handler
+<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_SPI1_Init
+</UL>
+
+<P><STRONG><a name="[37]"></a>GetAngle</STRONG> (Thumb, 302 bytes, Stack size 88 bytes, controle.o(i.GetAngle))
+<BR><BR>[Stack]<UL><LI>Max Depth = 280<LI>Call Chain = GetAngle &rArr; acos &rArr; __kernel_poly &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sqrt
+<LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;acos
+<LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2d
+<LI><a href="#[2d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2d
+<LI><a href="#[3a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_fmul
+<LI><a href="#[23]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_fdiv
+<LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_f2d
+<LI><a href="#[2c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
+<LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+<LI><a href="#[2f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2f
+<LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Modulo
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[3d]"></a>HAL_GPIO_EXTI_Callback</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, main.o(i.HAL_GPIO_EXTI_Callback))
+<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = HAL_GPIO_EXTI_Callback &rArr; LIS3DH_INT2_ISR &rArr; LIS3DH_GetAccAxesRaw &rArr; LIS3DH_ReadReg &rArr; SPI_Mems_Read_Reg &rArr; MEMS_SendByte &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFifoStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_INT2_ISR
+<LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_INT1_ISR
+</UL>
+<BR>[Called By]<UL><LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_EXTI_IRQHandler
+</UL>
+
+<P><STRONG><a name="[35]"></a>HAL_GPIO_EXTI_IRQHandler</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, stm32f0xx_hal_gpio.o(i.HAL_GPIO_EXTI_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = HAL_GPIO_EXTI_IRQHandler &rArr; HAL_GPIO_EXTI_Callback &rArr; LIS3DH_INT2_ISR &rArr; LIS3DH_GetAccAxesRaw &rArr; LIS3DH_ReadReg &rArr; SPI_Mems_Read_Reg &rArr; MEMS_SendByte &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFifoStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_EXTI_Callback
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI4_15_IRQHandler
+</UL>
+
+<P><STRONG><a name="[4e]"></a>HAL_GPIO_Init</STRONG> (Thumb, 302 bytes, Stack size 24 bytes, stm32f0xx_hal_gpio.o(i.HAL_GPIO_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = HAL_GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
+<LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_MspInit
+</UL>
+
+<P><STRONG><a name="[62]"></a>HAL_GPIO_WritePin</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f0xx_hal_gpio.o(i.HAL_GPIO_WritePin))
+<BR><BR>[Called By]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Mems_Write_Reg
+<LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Mems_Read_Reg
+<LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
+</UL>
+
+<P><STRONG><a name="[49]"></a>HAL_GetTick</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f0xx_hal.o(i.HAL_GetTick))
+<BR><BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_WaitFlagStateUntilTimeout
+<LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_WaitFifoStateUntilTimeout
+<LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_OscConfig
+<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
+<LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_TransmitReceive
+</UL>
+
+<P><STRONG><a name="[66]"></a>HAL_IncTick</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f0xx_hal.o(i.HAL_IncTick))
+<BR><BR>[Called By]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+
+<P><STRONG><a name="[40]"></a>HAL_Init</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, stm32f0xx_hal.o(i.HAL_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = HAL_Init &rArr; HAL_InitTick &rArr; __aeabi_uidivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_MspInit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[41]"></a>HAL_InitTick</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, stm32f0xx_hal.o(i.HAL_InitTick))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = HAL_InitTick &rArr; __aeabi_uidivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SYSTICK_Config
+<LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetHCLKFreq
+<LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+<LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
+<LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+</UL>
+
+<P><STRONG><a name="[42]"></a>HAL_MspInit</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, stm32f0xx_hal_msp.o(i.HAL_MspInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = HAL_MspInit &rArr; HAL_NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+</UL>
+<BR>[Called By]<UL><LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+</UL>
+
+<P><STRONG><a name="[63]"></a>HAL_NVIC_EnableIRQ</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f0xx_hal_cortex.o(i.HAL_NVIC_EnableIRQ))
+<BR><BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
+</UL>
+
+<P><STRONG><a name="[46]"></a>HAL_NVIC_SetPriority</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, stm32f0xx_hal_cortex.o(i.HAL_NVIC_SetPriority))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = HAL_NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[47]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_SetPriority
+</UL>
+<BR>[Called By]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
+<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_MspInit
+</UL>
+
+<P><STRONG><a name="[48]"></a>HAL_RCC_ClockConfig</STRONG> (Thumb, 280 bytes, Stack size 24 bytes, stm32f0xx_hal_rcc.o(i.HAL_RCC_ClockConfig))
+<BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = HAL_RCC_ClockConfig &rArr; HAL_RCC_GetSysClockFreq &rArr; __aeabi_uidivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetSysClockFreq
+<LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+</UL>
+<BR>[Called By]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
+</UL>
+
+<P><STRONG><a name="[43]"></a>HAL_RCC_GetHCLKFreq</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f0xx_hal_rcc.o(i.HAL_RCC_GetHCLKFreq))
+<BR><BR>[Called By]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
+</UL>
+
+<P><STRONG><a name="[4a]"></a>HAL_RCC_GetSysClockFreq</STRONG> (Thumb, 76 bytes, Stack size 40 bytes, stm32f0xx_hal_rcc.o(i.HAL_RCC_GetSysClockFreq))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = HAL_RCC_GetSysClockFreq &rArr; __aeabi_uidivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
+</UL>
+
+<P><STRONG><a name="[4b]"></a>HAL_RCC_OscConfig</STRONG> (Thumb, 840 bytes, Stack size 32 bytes, stm32f0xx_hal_rcc.o(i.HAL_RCC_OscConfig))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = HAL_RCC_OscConfig
+</UL>
+<BR>[Calls]<UL><LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+</UL>
+<BR>[Called By]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
+</UL>
+
+<P><STRONG><a name="[4c]"></a>HAL_SPI_Init</STRONG> (Thumb, 204 bytes, Stack size 24 bytes, stm32f0xx_hal_spi.o(i.HAL_SPI_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = HAL_SPI_Init &rArr; HAL_SPI_MspInit &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_MspInit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_SPI1_Init
+</UL>
+
+<P><STRONG><a name="[4d]"></a>HAL_SPI_MspInit</STRONG> (Thumb, 58 bytes, Stack size 32 bytes, spi.o(i.HAL_SPI_MspInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = HAL_SPI_MspInit &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Init
+</UL>
+
+<P><STRONG><a name="[4f]"></a>HAL_SPI_TransmitReceive</STRONG> (Thumb, 710 bytes, Stack size 40 bytes, stm32f0xx_hal_spi.o(i.HAL_SPI_TransmitReceive))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFifoStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_WaitFlagStateUntilTimeout
+<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_EndRxTxTransaction
+<LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+</UL>
+<BR>[Called By]<UL><LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MEMS_SendByte
+</UL>
+
+<P><STRONG><a name="[68]"></a>HAL_SYSTICK_CLKSourceConfig</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f0xx_hal_cortex.o(i.HAL_SYSTICK_CLKSourceConfig))
+<BR><BR>[Called By]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
+</UL>
+
+<P><STRONG><a name="[53]"></a>HAL_SYSTICK_Callback</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f0xx_hal_cortex.o(i.HAL_SYSTICK_Callback))
+<BR><BR>[Called By]<UL><LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SYSTICK_IRQHandler
+</UL>
+
+<P><STRONG><a name="[45]"></a>HAL_SYSTICK_Config</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, stm32f0xx_hal_cortex.o(i.HAL_SYSTICK_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = HAL_SYSTICK_Config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[47]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_SetPriority
+</UL>
+<BR>[Called By]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
+</UL>
+
+<P><STRONG><a name="[52]"></a>HAL_SYSTICK_IRQHandler</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, stm32f0xx_hal_cortex.o(i.HAL_SYSTICK_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = HAL_SYSTICK_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SYSTICK_Callback
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+
+<P><STRONG><a name="[54]"></a>LIS3DH_GetAccAxesRaw</STRONG> (Thumb, 140 bytes, Stack size 16 bytes, lis3dh_driver.o(i.LIS3DH_GetAccAxesRaw))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = LIS3DH_GetAccAxesRaw &rArr; LIS3DH_ReadReg &rArr; SPI_Mems_Read_Reg &rArr; MEMS_SendByte &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFifoStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_INT2_ISR
+<LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_INT1_ISR
+</UL>
+
+<P><STRONG><a name="[56]"></a>LIS3DH_GetStatusAUX</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, lis3dh_driver.o(i.LIS3DH_GetStatusAUX))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = LIS3DH_GetStatusAUX &rArr; LIS3DH_ReadReg &rArr; SPI_Mems_Read_Reg &rArr; MEMS_SendByte &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFifoStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_INT2_ISR
+<LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_INT1_ISR
+</UL>
+
+<P><STRONG><a name="[57]"></a>LIS3DH_GetStatusReg</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, lis3dh_driver.o(i.LIS3DH_GetStatusReg))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = LIS3DH_GetStatusReg &rArr; LIS3DH_ReadReg &rArr; SPI_Mems_Read_Reg &rArr; MEMS_SendByte &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFifoStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_INT2_ISR
+<LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_INT1_ISR
+</UL>
+
+<P><STRONG><a name="[58]"></a>LIS3DH_GetWHO_AM_I</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, lis3dh_driver.o(i.LIS3DH_GetWHO_AM_I))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = LIS3DH_GetWHO_AM_I &rArr; LIS3DH_ReadReg &rArr; SPI_Mems_Read_Reg &rArr; MEMS_SendByte &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFifoStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MEMS_Startup
+</UL>
+
+<P><STRONG><a name="[3e]"></a>LIS3DH_INT1_ISR</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, controle.o(i.LIS3DH_INT1_ISR))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = LIS3DH_INT1_ISR &rArr; LIS3DH_GetAccAxesRaw &rArr; LIS3DH_ReadReg &rArr; SPI_Mems_Read_Reg &rArr; MEMS_SendByte &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFifoStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ResetInt1Latch
+<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetStatusReg
+<LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetStatusAUX
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetAccAxesRaw
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_EXTI_Callback
+</UL>
+
+<P><STRONG><a name="[3f]"></a>LIS3DH_INT2_ISR</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, controle.o(i.LIS3DH_INT2_ISR))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = LIS3DH_INT2_ISR &rArr; LIS3DH_GetAccAxesRaw &rArr; LIS3DH_ReadReg &rArr; SPI_Mems_Read_Reg &rArr; MEMS_SendByte &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFifoStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ResetInt2Latch
+<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetStatusReg
+<LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetStatusAUX
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetAccAxesRaw
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_EXTI_Callback
+</UL>
+
+<P><STRONG><a name="[5b]"></a>LIS3DH_Init</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, controle.o(i.LIS3DH_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = LIS3DH_Init &rArr; MEMS_Startup &rArr; LIS3DH_WriteReg &rArr; SPI_Mems_Write_Reg &rArr; MEMS_SendByte &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFifoStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MEMS_Startup
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[55]"></a>LIS3DH_ReadReg</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, lis3dh_driver.o(i.LIS3DH_ReadReg))
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = LIS3DH_ReadReg &rArr; SPI_Mems_Read_Reg &rArr; MEMS_SendByte &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFifoStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Mems_Read_Reg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ResetInt2Latch
+<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ResetInt1Latch
+<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetWHO_AM_I
+<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetStatusReg
+<LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetStatusAUX
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetAccAxesRaw
+<LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MEMS_Startup
+</UL>
+
+<P><STRONG><a name="[59]"></a>LIS3DH_ResetInt1Latch</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, lis3dh_driver.o(i.LIS3DH_ResetInt1Latch))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = LIS3DH_ResetInt1Latch &rArr; LIS3DH_ReadReg &rArr; SPI_Mems_Read_Reg &rArr; MEMS_SendByte &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFifoStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_INT1_ISR
+</UL>
+
+<P><STRONG><a name="[5a]"></a>LIS3DH_ResetInt2Latch</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, lis3dh_driver.o(i.LIS3DH_ResetInt2Latch))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = LIS3DH_ResetInt2Latch &rArr; LIS3DH_ReadReg &rArr; SPI_Mems_Read_Reg &rArr; MEMS_SendByte &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFifoStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_INT2_ISR
+</UL>
+
+<P><STRONG><a name="[5e]"></a>LIS3DH_WriteReg</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, lis3dh_driver.o(i.LIS3DH_WriteReg))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = LIS3DH_WriteReg &rArr; SPI_Mems_Write_Reg &rArr; MEMS_SendByte &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFifoStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Mems_Write_Reg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MEMS_Startup
+</UL>
+
+<P><STRONG><a name="[60]"></a>MEMS_SendByte</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, lis3dh_driver.o(i.MEMS_SendByte))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = MEMS_SendByte &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFifoStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_TransmitReceive
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Mems_Write_Reg
+<LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Mems_Read_Reg
+</UL>
+
+<P><STRONG><a name="[5c]"></a>MEMS_Startup</STRONG> (Thumb, 258 bytes, Stack size 8 bytes, controle.o(i.MEMS_Startup))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = MEMS_Startup &rArr; LIS3DH_WriteReg &rArr; SPI_Mems_Write_Reg &rArr; MEMS_SendByte &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFifoStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetWHO_AM_I
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_Init
+</UL>
+
+<P><STRONG><a name="[61]"></a>MX_GPIO_Init</STRONG> (Thumb, 180 bytes, Stack size 48 bytes, gpio.o(i.MX_GPIO_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = MX_GPIO_Init &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+<LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_EnableIRQ
+<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[64]"></a>MX_SPI1_Init</STRONG> (Thumb, 68 bytes, Stack size 8 bytes, spi.o(i.MX_SPI1_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = MX_SPI1_Init &rArr; HAL_SPI_Init &rArr; HAL_SPI_MspInit &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Error_Handler
+<LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[38]"></a>Modulo</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, controle.o(i.Modulo))
+<BR><BR>[Called By]<UL><LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetAngle
+</UL>
+
+<P><STRONG><a name="[5d]"></a>SPI_Mems_Read_Reg</STRONG> (Thumb, 74 bytes, Stack size 16 bytes, lis3dh_driver.o(i.SPI_Mems_Read_Reg))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = SPI_Mems_Read_Reg &rArr; MEMS_SendByte &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFifoStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MEMS_SendByte
+<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+</UL>
+<BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[5f]"></a>SPI_Mems_Write_Reg</STRONG> (Thumb, 48 bytes, Stack size 24 bytes, lis3dh_driver.o(i.SPI_Mems_Write_Reg))
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = SPI_Mems_Write_Reg &rArr; MEMS_SendByte &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFifoStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MEMS_SendByte
+<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+</UL>
+
+<P><STRONG><a name="[5]"></a>SysTick_Handler</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, stm32f0xx_it.o(i.SysTick_Handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SysTick_Handler &rArr; HAL_SYSTICK_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_IncTick
+<LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SYSTICK_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(RESET)
+</UL>
+<P><STRONG><a name="[67]"></a>SystemClock_Config</STRONG> (Thumb, 102 bytes, Stack size 80 bytes, main.o(i.SystemClock_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 156<LI>Call Chain = SystemClock_Config &rArr; HAL_RCC_ClockConfig &rArr; HAL_RCC_GetSysClockFreq &rArr; __aeabi_uidivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_OscConfig
+<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
+<LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SYSTICK_Config
+<LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetHCLKFreq
+<LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+<LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
+<LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SYSTICK_CLKSourceConfig
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[1f]"></a>SystemInit</STRONG> (Thumb, 78 bytes, Stack size 0 bytes, system_stm32f0xx.o(i.SystemInit))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f030x8.o(.text)
+</UL>
+<P><STRONG><a name="[30]"></a>__ARM_clz</STRONG> (Thumb, 46 bytes, Stack size 0 bytes, depilogue.o(i.__ARM_clz))
+<BR><BR>[Called By]<UL><LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+</UL>
+
+<P><STRONG><a name="[69]"></a>__kernel_poly</STRONG> (Thumb, 172 bytes, Stack size 24 bytes, poly.o(i.__kernel_poly))
+<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = __kernel_poly &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[2c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
+<LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;acos
+</UL>
+
+<P><STRONG><a name="[6a]"></a>__mathlib_dbl_infnan</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, dunder.o(i.__mathlib_dbl_infnan))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = __mathlib_dbl_infnan &rArr; __ARM_scalbn
+</UL>
+<BR>[Calls]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;acos
+</UL>
+
+<P><STRONG><a name="[6c]"></a>__mathlib_dbl_invalid</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, dunder.o(i.__mathlib_dbl_invalid))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = __mathlib_dbl_invalid &rArr; __aeabi_ddiv &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;acos
+</UL>
+
+<P><STRONG><a name="[7c]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
+
+<P><STRONG><a name="[7d]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
+
+<P><STRONG><a name="[7e]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
+
+<P><STRONG><a name="[6d]"></a>__set_errno</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, errno.o(i.__set_errno))
+<BR><BR>[Called By]<UL><LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sqrt
+<LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;acos
+</UL>
+
+<P><STRONG><a name="[3c]"></a>acos</STRONG> (Thumb, 556 bytes, Stack size 40 bytes, acos.o(i.acos))
+<BR><BR>[Stack]<UL><LI>Max Depth = 192<LI>Call Chain = acos &rArr; __kernel_poly &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sqrt
+<LI><a href="#[2a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dsub
+<LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_drsub
+<LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
+<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
+<LI><a href="#[2c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
+<LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+<LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__set_errno
+<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__kernel_poly
+<LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_invalid
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_infnan
+</UL>
+<BR>[Called By]<UL><LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetAngle
+</UL>
+
+<P><STRONG><a name="[1e]"></a>main</STRONG> (Thumb, 66 bytes, Stack size 16 bytes, main.o(i.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 296<LI>Call Chain = main &rArr; GetAngle &rArr; acos &rArr; __kernel_poly &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+<LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_Init
+<LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetAngle
+<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
+<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_SPI1_Init
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> entry9a.o(.ARM.Collect$$$$0000000B)
+</UL>
+<P><STRONG><a name="[39]"></a>sqrt</STRONG> (Thumb, 66 bytes, Stack size 24 bytes, sqrt.o(i.sqrt))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = sqrt &rArr; _dsqrt &rArr; _double_round
+</UL>
+<BR>[Calls]<UL><LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dsqrt
+<LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__set_errno
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;acos
+<LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetAngle
+</UL>
+<P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[51]"></a>SPI_EndRxTxTransaction</STRONG> (Thumb, 50 bytes, Stack size 16 bytes, stm32f0xx_hal_spi.o(i.SPI_EndRxTxTransaction))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = SPI_EndRxTxTransaction &rArr; SPI_WaitFifoStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_WaitFlagStateUntilTimeout
+<LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_WaitFifoStateUntilTimeout
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_TransmitReceive
+</UL>
+
+<P><STRONG><a name="[65]"></a>SPI_WaitFifoStateUntilTimeout</STRONG> (Thumb, 158 bytes, Stack size 32 bytes, stm32f0xx_hal_spi.o(i.SPI_WaitFifoStateUntilTimeout))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = SPI_WaitFifoStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+</UL>
+<BR>[Called By]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_EndRxTxTransaction
+</UL>
+
+<P><STRONG><a name="[50]"></a>SPI_WaitFlagStateUntilTimeout</STRONG> (Thumb, 138 bytes, Stack size 24 bytes, stm32f0xx_hal_spi.o(i.SPI_WaitFlagStateUntilTimeout))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+</UL>
+<BR>[Called By]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_EndRxTxTransaction
+<LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_TransmitReceive
+</UL>
+
+<P><STRONG><a name="[47]"></a>NVIC_SetPriority</STRONG> (Thumb, 60 bytes, Stack size 0 bytes, stm32f0xx_hal_cortex.o(i.NVIC_SetPriority))
+<BR><BR>[Called By]<UL><LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SYSTICK_Config
+<LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+</UL>
+<P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>
